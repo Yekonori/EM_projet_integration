@@ -1,0 +1,55 @@
+/#########################################################/
+/############## REPONSIVE > NAVBAR + FOOTER ##############/
+/#########################################################/
+
+La barre de navigation laisse place à un menu burger pour les formats d'écran inférieur à 1024px pour offrir une meilleure lisibilité sur les écran plus petits (mobile + tablette).
+
+Le footer lui, se réorganise pour ne plus être en ligne mais en colonne, il devient plus clair et cela permet aussi d'agrandir l'input du formulaire ainsi que le bouton pour les rendre plus simple d'accès sur un petit écran.
+
+/#########################################################/
+/################# REPONSIVE > PAGE HOME #################/
+/#########################################################/
+
+Pour la page Home, il faudrait revoir le texte se situant dans la partie "MASTERMIND COACHING & MENTORING" afin de rendre le contenu textuel plus léger et agréable sur mobile.
+
+En effet, sur un petit écran, le texte doit être plus court et plus direct, pour éviter de perdre le lecteur/utilisateur et le détourner de la vraie raison de sa visite.
+
+L'image, elle peut utile, disparaît pour laisser plus de place et d'importance au texte.
+
+Pour le carrousel, on passe à une carte par écran pour mieux épouser la forme des petits écrans et offrir une meilleure visibilité à partir de 768px, le format "Tablette", on passe par contre à 3 cartes.
+
+Concernant la partie "About Us", l'image doit être repensée sous différents formats pour offre une meilleure qualité et netteté sur les différents points de rupture ; et le texte doit lui aussi être revu de manière à le rendre plus optimal (clair et direct).
+
+/#########################################################/
+/################ REPONSIVE > PAGE CONTACT ###############/
+/#########################################################/
+
+Pour la page de contact, le format deux colonnes revient lui aussi à une simple colonne pour une meilleure visibilité et lisibilité.
+
+Les champs du formulaire s'élargissent pour être plus accessible et la carte en fait de même pour être plus agréable à lire.
+
+Les addresses situées sous la carte passent elles aussi sous un format de colonne pour les dimensions inférieures à 768px, le format "Tablette".
+
+Les photos pour la partie "Our Team Leaders" passent elle a deux images par lignes pour un affichage plus agréable, avec le petit encadré bleu qui devient fixe puisque le :hover n'existe pas sur mobile.
+
+/#########################################################/
+/############### REPONSIVE > PAGE SERVICES ###############/
+/#########################################################/
+
+Pour la partie "FEATURED SERVICES", tout le design se revoit en fonction des points de rupture, pour un format "Tablette", 768px, les services deviennet un carré de 2x2 pour garder le texte lisible et bien séparer chaque service.
+En format mobile, les services s'alignent les uns sous les autres pour maintenir un format lisible et agréable.
+
+La partie suivante, qui était coupée en trois bloque pour un format "Ordinateur", devient une colonne dès le format "Tablette" ainsi, le tout reste propre et aérée.
+
+La partie "Our Methods" suit la même logique et devient une colonne claire et lisible.
+
+/#########################################################/
+/################# REPONSIVE > REMARQUES #################/
+/#########################################################/
+
+De manière générale, mon responsive reste simple, on passe d'une ligne à une colonne pour optimiser la lecture du texte et des éléments.
+
+En complément, le texte et les images doivent être retravaillés pour les différents points de ruptures, afin de rester clair et direct sur le mobile et garder un texte détaillé sur ordinateur.
+
+Du côté CSS, les pixels restent prohibés pour toutes les mesures sauf le margin et padding.
+En effet, pour un ajustement aussi minime et subtil, le pixel, mesure moins variable, reste plus adapté pour moi.
