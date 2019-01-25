@@ -84,6 +84,8 @@ header p { visibility: hidden; }
 
 .roboto { font-family: "Roboto", sans-serif; }
 
+img { width: 100%; }
+
 
 
 /**************************************************/
@@ -430,13 +432,13 @@ main {
     main { display: -webkit-box; display: -ms-flexbox; display: flex; }
 }
 
+@media screen and (min-width: 768px) {
+    main > .main_infos { margin-right: 25px; }
+}
+
 @media screen and (max-width: 1023px) {
     main > .main_infos > ul,
     main > .main_infos > p { text-align: justify; }
-}
-
-@media screen and (min-width: 768px) {
-    main > .main_infos { margin-right: 25px; }
 }
 
 main > .main_infos > ul { margin-bottom: 30px; }
